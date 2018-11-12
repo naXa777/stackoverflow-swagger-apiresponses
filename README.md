@@ -1,6 +1,7 @@
 # Swagger @ApiResponses Demo
 
 A mini project to answer a Stack Overflow [question](https://stackoverflow.com/q/46324478/1429387) about Swagger annotations.
+It demonstrates Swagger annotations, specifically [`@ApiResponses`](http://docs.swagger.io/swagger-core/apidocs/com/wordnik/swagger/annotations/ApiResponse.html), for configuring responses in API documentation.
 
 For more details read [the answer](https://stackoverflow.com/a/53266819/1429387).
 
@@ -13,6 +14,8 @@ For more details read [the answer](https://stackoverflow.com/a/53266819/1429387)
 * Gradle
 
 ## Build
+
+[![Build Status](https://travis-ci.com/naXa777/stackoverflow-swagger-apiresponses.svg?branch=master&style=flat)](https://travis-ci.com/naXa777/stackoverflow-swagger-apiresponses)
 
 ```$sh
 ./gradlew bootRun
